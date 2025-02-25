@@ -1,0 +1,82 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+
+
+}
+
+#wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:ease-in 0.5s;
+    
+}
+
+.context1 {
+    background-image: url(./pics/context1.jpg);
+}
+
+.context2 {
+    background-image: url(./pics/context2.jpg);
+}
+
+.context3 {
+    background-image: url(./pics/context3.jpg);
+}
+
+.context4 {
+    background-image: url(./pics/context4.jpg);
+}
+
+.context5 {
+    background-image: url(./pics/context5.jpg);
+}
+
+.context6 {
+    background-image: url(./pics/context6.jpg);
+}
+
+.context7 {
+    background-image: url(./pics/context7.jpg);
+}
+
+.context8 {
+    background-image: url(./pics/context8.jpg);
+}
+
+.context9 {
+    background-image: url(./pics/context9.jpg);
+}
+
+#subject {
+    width: 60rem;
+    height: 60rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    transition: 0.5s;
+}
+
+.subject1 {
+    background-image: url(./pics/subject1.PNG);
+}
+
+.subject2 {
+    background-image: url(./pics/subject2.PNG);
+}
